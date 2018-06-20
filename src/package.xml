@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>getRESTData</members>
-        <members>loadWebPage</members>
-        <members>playSound</members>
-        <members>showToast</members>
-        <members>updateScreen</members>
+        <members>JVDYouTubeFSC</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <version>38.0</version>
