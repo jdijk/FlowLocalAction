@@ -1,7 +1,7 @@
 <h1>Lightning Flow - Local Action Components</h1>
 
-In this repository there is a mix of components that I've comed from
- the official <a href="https://github.com/forcedotcom/LightningFlowComponents/tree/master/flow_local_actions" target="_blank"> Force.com</a> github location and some components that I've written myself. 
+In this repository there is a mix of components that I've copied from
+ the official <a href="https://github.com/forcedotcom/LightningFlowComponents/tree/master/flow_local_actions" target="_blank"> Force.com</a> github location and some components that I've written myself. The reason for copying the components from the Force.com github is that there it only provides support for DS environments.
  
 <h2>Installation</h2>
 
