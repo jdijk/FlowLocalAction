@@ -1,0 +1,14 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <ltng:require scripts="{!$Resource.IBANJS}" afterScriptsLoaded="{!c.scriptloaded}" />
+    
+    <aura:attribute name="IBAN" type="String" default='' />
+    
+    <!--When the component renders, it calls init handler.--> 
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/> 
+        <!--Declare the validation attribute so it can store the validation logic.--> 
+    <aura:attribute name="validate" type="Aura.Action"/> 
+    
+    <!-- component markup --> 
+    
+    <lightning:input aura:id="txtIBAN" name="txtIBAN" value="{!v.IBAN}" />
+</aura:component>
