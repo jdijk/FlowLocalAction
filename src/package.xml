@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>JVDYouTubeFSC</members>
-        <members>showToast</members>
-        <members>updateScreen</members>
-        <members>playSound</members>
-        <members>loadWebPage</members>
-        <members>getRESTData</members>
-        <members>formattedRichTextFSC</members>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <version>38.0</version>
