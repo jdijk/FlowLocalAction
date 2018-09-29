@@ -1,4 +1,4 @@
 <design:component>
 	 <design:attribute name="IBAN" label="IBAN" default="" />
-    
+     <design:attribute name="IBANPlaceholder" label="Placeholder" default="IBAN" />
 </design:component>
