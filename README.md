@@ -1,7 +1,17 @@
-<h1>Lightning Flow - Local Action Components</h1>
+<h1>Lightning Flow Components</h1>
 
 In this repository there is a mix of components that I've copied from
  the official <a href="https://github.com/forcedotcom/LightningFlowComponents/tree/master/flow_local_actions" target="_blank"> Force.com</a> github location and some components that I've written myself. The reason for copying the components from the Force.com github is that there it only provides support for DS environments.
+ <p>
+ Components from the force.com repository included are:
+ <ul>
+  <li>getRESTData</li>
+  <li>loadWebPage</li>
+  <li>playSound</li>
+  <li>showToast</li>
+  <li>updateScreen</li>
+ </ul>
+ 
  
 <h2>Installation</h2>
 
@@ -13,6 +23,12 @@ In this Gibhub I give you the capability to push these components into your Sale
 </a>
 
 <h2>Lightning Flow Screen Components</h2>
+
+The following force.com Flow Screen Components are also provided here to make it easer to install:
+<ul>
+ <li>formattedRichTextFSC</li>
+ <li>richTextInputFSC</li>
+ </ul>
 
 Next to the official Local Action Components I've started to create Flow Screen Components that you can use in your Flow.
 
@@ -54,3 +70,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 
 If the IBAN Input field finds a non-valid IBAN number it will return an error message to the flow. The content of that error message is in a custom label called 'NoIBANErrorMsg'. If you want to update the error message, that's the place to do it.
+
+
+<h2>Apex Classes</h2>
+
+The following Apex classes are specificly for use with Flow:
+<ul>
+ <li>GetRandomNumber</li>
+ </ul>
