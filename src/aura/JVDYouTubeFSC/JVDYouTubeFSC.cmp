@@ -3,14 +3,20 @@
     <aura:attribute name="videoId" type="String" />
     <aura:attribute name="width" type="String" default="100" />
     <aura:attribute name="height" type="String" />
-
+    <aura:attribute name="showHeader" type="Boolean" default="true" />
+    <aura:attribute name="autoPlay" type="Boolean" default="true" />
+    <aura:attribute name="disableKeyboard" type="Boolean" default="false" />
+    <aura:attribute name="showControls" type="Boolean" default="true" />
+    
     <div class="slds">
         <div class="slds-card">
-            <div class="slds-card__header slds-grid">
-                <h2 class="slds-text-heading--small slds-truncate"> {!v.title} </h2>
-            </div>
+            <aura:if isTrue="{!v.showHeader}">
+            	<div class="slds-card__header slds-grid">
+                	<h2 class="slds-text-heading--small slds-truncate"> {!v.title} </h2>
+            	</div>
+            </aura:if>
             <div class="slds-card__body">
-                <iframe src="{! 'https://www.youtube.com/embed/' + v.videoId + '?autoplay=1'}" 
+                <iframe src="{! 'https://www.youtube.com/embed/' + v.videoId + '?autoplay=' + (v.autoPlay ? '1' : '0') + '&amp;controls=' + (v.showControls ? '1' : '0') + '&amp;disablekb=' + (v.disableKeyboard ? '1' : '0')}" 
                         style="{! 'width:' + v.width + '%; height: ' + v.height + 'px; padding: 1em;' }" 
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" />
             </div>
