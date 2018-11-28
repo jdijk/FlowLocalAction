@@ -3,4 +3,8 @@
     <design:attribute name="videoId" label="YouTube Video Id" description="Id at end of YouTube URL" default="XD0awb4rO68" />
     <design:attribute name="width" label="Width (%)" default="100" />
     <design:attribute name="height" label="Height (px)" default="100" />
+    <design:attribute name="showHeader" label="Show header" default="true" />
+    <design:attribute name="autoPlay" label="Autoplay" default="true" />
+    <design:attribute name="disableKeyboard" label="Disable keyboard" default="false" />
+    <design:attribute name="showControls" label="Show controls" default="true" />
 </design:component>
