@@ -40,6 +40,10 @@ This components allows you to embed a YouTube movie in your flow. This component
   <li>Title, if you want a title above the video</li>
   <li>Width, defaults to 100%</li>
   <li>Height, the height of the component</li>
+ <li>Autoplay, to control if the movie starts directly playing (true/false, true by default)</li>
+ <li>Show Header, controls the titlebar above the video (true/false, true by default)</li>
+ <li>Show controls, determines if you see the standard video controls or not when hovering over the movie (true/false, true by default)</li>
+ <li>Disable keyboard, controls if keyboard shortcuts work or not (true/false, false by default)</li>
   </ul>
 
 <h3>JVDIBANInput</h3>
