@@ -1,0 +1,10 @@
+<design:component>
+<design:attribute name="objectName" label="Object Name" required="true" />
+    <design:attribute name="fieldName" label="Display Field" required="true" />
+    <design:attribute name="iconName" label="Icon" required="true"  />
+    <design:attribute name="selectRecordId" label="Selected Id" />
+    <design:attribute name="selectRecordName" label="Selected Record Name" />
+    <design:attribute name="Label" label="Field Label" />
+    <design:attribute name="required" label="Show required" default="false"/>
+    <design:attribute name="LoadingText" label="Show Loading Indicator" default="false"/>
+</design:component>
