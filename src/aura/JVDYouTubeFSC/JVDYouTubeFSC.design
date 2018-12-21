@@ -7,4 +7,6 @@
     <design:attribute name="autoPlay" label="Autoplay" default="true" />
     <design:attribute name="disableKeyboard" label="Disable keyboard" default="false" />
     <design:attribute name="showControls" label="Show controls" default="true" />
+    <design:attribute name="start" label="Start move at seconds" default="0" />
+    <design:attribute name="end" label="End movie after seconds" default="0" />
 </design:component>
