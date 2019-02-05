@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:availableForFlowScreens" controller="JVDSignatureCapture" access="global">
+    
+    <ltng:require scripts="{!join(',',$Resource.JVDSignature + '/jquery-3.3.1.min.js', 
+                           $Resource.JVDSignature + '/signature_pad-2.3.2.min.js')}" 
+                  	afterScriptsLoaded="{!c.doInit}" />
+    
+    <aura:attribute name="ParentRecordId" type="String" />
+    <aura:attribute name="DocumentName" type="String" default="signature" />
+    <aura:attribute name="IsSuccess" type="Boolean" default="value" />
+    
+       <!--Declare the validation attribute so it can store the validation logic.--> 
+    <aura:attribute name="validate" type="Aura.Action"/> 
+    
+    <aura:handler event="c:JVDSaveSignature" action="{!c.saveThis}"/>
+	<aura:registerEvent name="SignatureResult" type="c:JVDSignatureSaveResult"/>
+    
+    <div class="cswrap">
+             <canvas id="signature-pad" class="signature-pad" width="500" height="200"></canvas>
+    </div>
+    
+    
+	
+</aura:component>

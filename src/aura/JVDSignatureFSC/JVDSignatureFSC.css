@@ -1,0 +1,10 @@
+.THIS #signature-pad {
+    border: 1px dashed gainsboro;
+    background-color: #fff;
+}
+
+.THIS.cswrap{
+    height: 200px;
+    width: 100%;
+   	margin-bottom:1.5rem;
+}

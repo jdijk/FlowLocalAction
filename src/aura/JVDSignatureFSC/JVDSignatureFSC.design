@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="ParentRecordId" label="Parent Record Id" required="true" />
+    <design:attribute name="DocumentName" label="Name of document" default="signature" />
+</design:component>

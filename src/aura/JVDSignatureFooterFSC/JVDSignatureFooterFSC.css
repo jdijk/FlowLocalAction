@@ -1,0 +1,18 @@
+.THIS {
+    position:relative;
+    display:block !important;
+    height:45px;
+}
+
+.THIS .buttonbar {
+    position:absolute;
+        top:10px;
+	 right: 5px;
+    bottom: 10px;
+}
+
+.THIS .button {
+    
+    margin-right: 5px;
+    
+}
