@@ -43,5 +43,14 @@
         <members>JVDSignature</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>Unlock_Approval_Record</members>
+        <members>Unlock_Record</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Account.Unlock_Record</members>
+        <name>QuickAction</name>
+    </types>
     <version>38.0</version>
 </Package>
