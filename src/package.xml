@@ -52,5 +52,5 @@
         <members>Account.Unlock_Record</members>
         <name>QuickAction</name>
     </types>
-    <version>38.0</version>
+    <version>47.0</version>
 </Package>
