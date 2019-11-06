@@ -16,6 +16,7 @@
         <members>JVDSignatureSaveResult</members>
         <members>navigateToRecord</members>
         <members>loadWebPage</members>
+        <members>getNBARecommendationsFSC</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
