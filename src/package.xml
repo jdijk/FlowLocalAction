@@ -29,7 +29,7 @@
         <members>String_Numeralize</members>
         <members>String_NumeralizeTest</members>
         <members>GetRecordLockStatus</members>
-        <members>GetREcordLockStatusTest</members>
+        <members>GetRecordLockStatusTest</members>
         <members>UnlockRecord</members>
         <members>UnlockRecordTest</members>
         <name>ApexClass</name>
