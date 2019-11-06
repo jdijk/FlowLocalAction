@@ -1,5 +1,5 @@
 @isTest
-public with sharing class String_NumeralizeTests {
+public with sharing class String_NumeralizeTest {
 
     @isTest
     public static void numeralizeWithCommas () {
