@@ -1,0 +1,4 @@
+<design:component label="Knowledge Categories Tree">
+    <design:attribute name="TreeTitle" label="Header" default="" />
+	 <design:attribute name="CategoryName" label="Selected category name" default="" />
+</design:component>
