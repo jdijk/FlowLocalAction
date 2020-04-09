@@ -1,0 +1,11 @@
+<aura:component  implements="lightning:availableForFlowScreens" access="global" controller="KnowledgeCategoriesFlowAction" >
+	  <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:attribute name="items" type="Object" access="PRIVATE"/>
+    <aura:attribute name="CategoryName" type="String" default=""/>
+    <aura:attribute name="TreeTitle" type="String" default="Categories" />
+   
+
+    <div>
+        <lightning:tree items="{! v.items }" header="{! v.TreeTitle}" onselect="{! c.handleSelect }"/>
+    </div>
+</aura:component>
