@@ -17,6 +17,7 @@
         <members>navigateToRecord</members>
         <members>loadWebPage</members>
         <members>getNBARecommendationsFSC</members>
+        <members>JVDKnowledgeCategoryTreeFlowComponent</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
@@ -33,6 +34,8 @@
         <members>GetRecordLockStatusTest</members>
         <members>UnlockRecord</members>
         <members>UnlockRecordTest</members>
+        <members>KnowledgeCategories</members>
+        <members>KnowledgeCategoriesFlowAction</members>
         <name>ApexClass</name>
     </types>
     <types>
